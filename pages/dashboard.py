@@ -36,7 +36,7 @@ if "date" in df_habits.columns:
     today_habits_df = df_habits[df_habits["date"] == today]
 else:
     today_habits_df = df_habits
-completed = 0#
+completed = 0
 total = len(today_habits_df)
 if total > 0:
     for index, row in today_habits_df.iterrows():
